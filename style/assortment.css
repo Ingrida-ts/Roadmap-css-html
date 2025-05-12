@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.assortment {
+  width: 560px;
+  height: 1257px;
+  margin: 57px 11px 0px 29px;
+}
+.assortment__title {
+  font-family: "RF Dewi Expanded";
+  font-weight: 800;
+  font-size: 30px;
+  font-style: normal;
+  line-height: 110%;
+  color: #191919;
+  text-align: center;
+  letter-spacing: 0;
+  width: 560px;
+  height: 181px;
+  top: 734px;
+  left: 29px;
+}
+.assortment__description {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #1a1a1a;
+  width: 543px;
+  height: 216px;
+  margin: 172px 15px -150px 2px;
+}
+.assortment__li--img {
+  width: 251px;
+  height: 248px;
+  top: 1046px;
+  left: 31px;
+  border-radius: 6px;
+}
