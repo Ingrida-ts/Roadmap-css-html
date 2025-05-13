@@ -20,14 +20,14 @@
   margin-bottom: 55px;
 }
 .assortment__description {
-  font-family: "Inter";
-  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0%;
   text-align: center;
   color: #1a1a1a;
-  margin-bottom: 70px;
+  margin: 0px 26px 70px 31px;
 }
 .assortment__ul {
   list-style: none;
@@ -55,12 +55,12 @@
   color: #000000;
   font-size: 24px;
   line-height: 120%;
-  font-weight: 400;
+  font-weight: 300;
   font-family: 'RF Dewi';
 }
 .assortment__li--p2 {
   color: #000000;
-  margin-top: -10px;
+  margin-top: -2px;
   font-size: 14px;
   line-height: 120%;
   font-weight: 400;
