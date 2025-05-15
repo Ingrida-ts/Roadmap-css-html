@@ -22,33 +22,32 @@
   padding-top: 21px;
   padding-bottom: 35px;
 }
-.header__div {
+
+.logo {
   text-align: center;
-}
-.header__h1 {
   font-size: 25px;
   line-height: 120%;
   letter-spacing: 1%;
 }
-.header__text {
+.logo__text {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 0.63em;
   line-height: 1.5;
   text-transform: uppercase;
 }
-.header__made {
+
+.header__label {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   flex-basis: 40%;
-}
-.header__made-p {
   font-size: 35px;
   letter-spacing: 0%;
   text-align: center;
 }
-.header__button {
+
+.button {
   font-family: inherit;
   font-weight: inherit;
   font-size: 14px;
@@ -63,15 +62,21 @@
   display: flex;
   justify-content: space-around;
 }
-.header__contacts-p {
-  font-family: "Inter", sans-serif;
+.contacts__p {
+  font-family: "RF Dewi";
   font-weight: 400;
   font-size: 14px;
   line-height: 150%;
-  letter-spacing: 0%;
-  letter-spacing: 1px;
 }
 a {
   color: #ffffff;
   text-decoration: none;
+}
+@media (min-width: 1205px) {
+  .header__contacts {
+    position: relative;
+    bottom: 575px;
+    justify-content: space-between;
+    width: 1127px;
+  }
 }
