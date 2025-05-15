@@ -22,19 +22,19 @@
   padding-top: 21px;
   padding-bottom: 35px;
 }
+.header__div {
+  text-align: center;
+}
 .header__h1 {
   font-size: 25px;
   line-height: 120%;
   letter-spacing: 1%;
 }
 .header__text {
-  font-family: "RF Dewi";
-  font-weight: 300;
-  font-style: normal;
-  font-size: 19px;
-  line-height: 1.6;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
   text-transform: uppercase;
-  letter-spacing: 2px;
 }
 .header__made {
   display: flex;
